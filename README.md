@@ -13,7 +13,7 @@ First copy the content of **docker-compose-dev.yml** to **docker-compose.yml**
 
 Run the app using :
 
-`$ docker-compose up --build -remove-orphans`
+`$ docker-compose up --build --remove-orphans`
 
 The App should be App :
 
@@ -31,6 +31,6 @@ First copy the content of **docker-compose-prod.yml** to **docker-compose.yml**
 
 Run the app using :
 
-` $ docker-compose up --build -remove-orphans`
+` $ docker-compose up --build --remove-orphans`
 
 The App should be up at http://localhost:8080
